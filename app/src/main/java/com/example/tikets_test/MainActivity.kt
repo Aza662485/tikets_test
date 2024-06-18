@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         )
         navView.setupWithNavController(navController)
 
+
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if(destination.id == com.example.ticket.R.id.allTicketFragment2 ||
                 destination.id == com.example.ticket.R.id.searchCityFragment
